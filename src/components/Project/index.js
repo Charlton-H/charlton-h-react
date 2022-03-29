@@ -52,7 +52,8 @@ function ProjectList() {
   ]);
 
   return (
-    <section className="container">
+    <section className="container pt-4">
+      <h2>Projects</h2>
       <MDBRow className="row-cols-1 row-cols-md-2 g-4 pt-5">
         {projects.map((project) => (
           <MDBCol key={project.name}>

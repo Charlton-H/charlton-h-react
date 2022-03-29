@@ -10,7 +10,7 @@ import {
   MDBCollapse,
 } from 'mdb-react-ui-kit';
 
-export default function Nav() {
+export default function Nav(props) {
   const [showNavSecond, setShowNavSecond] = useState(false);
 
   return (
@@ -28,10 +28,13 @@ export default function Nav() {
         </MDBNavbarToggler>
         <MDBCollapse navbar show={showNavSecond}>
           <MDBNavbarNav className="justify-content-end gap-4  fs-3">
-            <MDBNavbarLink active aria-current="page" href="#about">
+            <MDBNavbarLink active aria-current="page" href="#about-me">
               About Me
             </MDBNavbarLink>
-            <MDBNavbarLink href="#">Contact</MDBNavbarLink>
+            <MDBNavbarLink active aria-current="page" href="#project">
+              Projects
+            </MDBNavbarLink>
+            <MDBNavbarLink href="#contact">Contact</MDBNavbarLink>
             <MDBNavbarLink href="#">Resume</MDBNavbarLink>
           </MDBNavbarNav>
         </MDBCollapse>

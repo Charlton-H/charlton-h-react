@@ -1,23 +1,23 @@
-// import './App.css';
 import About from './components/About';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ProjectList from './components/Project';
+import React, { useState } from 'react';
 
 function App() {
   return (
-    <div>
-      <div>
+    <div className="App">
+      <header>
         <Header />
-      </div>
-      <div className="pt-5">
+      </header>
+      <main className="pt-5">
         <About />
 
         <ProjectList />
-      </div>
-      <div>
+      </main>
+      <footer>
         <Footer />
-      </div>
+      </footer>
     </div>
   );
 }
