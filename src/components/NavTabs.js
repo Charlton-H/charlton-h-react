@@ -10,7 +10,7 @@ import {
   MDBCollapse,
 } from 'mdb-react-ui-kit';
 
-export default function Nav(props) {
+export default function NavTabs({ currentPage, handlePageChange }) {
   const [showNavSecond, setShowNavSecond] = useState(false);
 
   return (
@@ -28,10 +28,22 @@ export default function Nav(props) {
         </MDBNavbarToggler>
         <MDBCollapse navbar show={showNavSecond}>
           <MDBNavbarNav className="justify-content-end gap-4  fs-3">
-            <MDBNavbarLink active aria-current="page" href="#about-me">
+            <MDBNavbarLink
+              href="#about"
+              onClick={() => handlePageChange('About')}
+              className={
+                currentPage === 'About' ? 'nav-link active' : 'nav-link'
+              }
+            >
               About Me
             </MDBNavbarLink>
-            <MDBNavbarLink active aria-current="page" href="#project">
+            <MDBNavbarLink
+              href="#project"
+              onClick={() => handlePageChange('Project')}
+              className={
+                currentPage === 'Project' ? 'nav-link active' : 'nav-link'
+              }
+            >
               Projects
             </MDBNavbarLink>
             <MDBNavbarLink href="#contact">Contact</MDBNavbarLink>

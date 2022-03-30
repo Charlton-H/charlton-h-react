@@ -52,14 +52,14 @@ function ProjectList() {
   ]);
 
   return (
-    <section className="container pt-4">
+    <section className="container pt-5">
       <h2>Projects</h2>
       <MDBRow className="row-cols-1 row-cols-md-2 g-4 pt-5">
         {projects.map((project) => (
           <MDBCol key={project.name}>
             <MDBCard onClick={() => window.open(project.url)}>
               <MDBCardImage
-                src={require(`../../assets/images/${project.img}`)}
+                src={require(`../assets/images/${project.img}`)}
                 alt={project.name}
                 position="top"
               />

@@ -1,23 +1,35 @@
 import About from './components/About';
-import Header from './components/Header';
 import Footer from './components/Footer';
 import ProjectList from './components/Project';
+import NavTabs from './components/NavTabs';
 import React, { useState } from 'react';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('About');
+
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Project') {
+      return <ProjectList />;
+    }
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
     <div className="App">
-      <header>
-        <Header />
-      </header>
-      <main className="pt-5">
-        <About />
-
-        <ProjectList />
-      </main>
-      <footer>
+      <div>
+        <NavTabs
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
+        {renderPage()}
+      </div>
+      <div>
         <Footer />
-      </footer>
+      </div>
     </div>
   );
 }
