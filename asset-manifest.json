@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/charlton-h-react/static/css/main.67976eb0.css",
+    "main.js": "/charlton-h-react/static/js/main.d6c0a8ca.js",
+    "static/js/787.bc5b2175.chunk.js": "/charlton-h-react/static/js/787.bc5b2175.chunk.js",
+    "static/media/Randm.png": "/charlton-h-react/static/media/Randm.1a5475008b694bdea527.png",
+    "static/media/readme-demo.PNG": "/charlton-h-react/static/media/readme-demo.9ba161dc289a98797a82.PNG",
+    "static/media/social-network.PNG": "/charlton-h-react/static/media/social-network.d4af25ef460412432261.PNG",
+    "static/media/save-dat-money.PNG": "/charlton-h-react/static/media/save-dat-money.45af550dad375678d47d.PNG",
+    "static/media/yourface-blog.PNG": "/charlton-h-react/static/media/yourface-blog.ce9afb51bb529291e202.PNG",
+    "static/media/note-taker-demo.PNG": "/charlton-h-react/static/media/note-taker-demo.507ffdf69f23d65f470a.PNG",
+    "index.html": "/charlton-h-react/index.html",
+    "main.67976eb0.css.map": "/charlton-h-react/static/css/main.67976eb0.css.map",
+    "main.d6c0a8ca.js.map": "/charlton-h-react/static/js/main.d6c0a8ca.js.map",
+    "787.bc5b2175.chunk.js.map": "/charlton-h-react/static/js/787.bc5b2175.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67976eb0.css",
+    "static/js/main.d6c0a8ca.js"
+  ]
+}
