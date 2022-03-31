@@ -47,7 +47,15 @@ export default function NavTabs({ currentPage, handlePageChange }) {
               Projects
             </MDBNavbarLink>
             <MDBNavbarLink href="#contact">Contact</MDBNavbarLink>
-            <MDBNavbarLink href="#">Resume</MDBNavbarLink>
+            <MDBNavbarLink
+              href="#resume"
+              onClick={() => handlePageChange('Resume')}
+              className={
+                currentPage === 'Resume' ? 'nav-link active' : 'nav-link'
+              }
+            >
+              Resume
+            </MDBNavbarLink>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBContainer>
