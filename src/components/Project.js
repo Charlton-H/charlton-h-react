@@ -12,6 +12,12 @@ import {
 function ProjectList() {
   const [projects] = useState([
     {
+      name: 'Happy Harvester',
+      decription: 'Full Stack MERN game app',
+      url: 'https://happy-harvesters.herokuapp.com/',
+      img: 'happy_harvest.jpg',
+    },
+    {
       name: 'Save da Money',
       decription: 'Budget tracking project showcasing service-worker knowledge',
       url: 'https://hidden-cliffs-27191.herokuapp.com/',
