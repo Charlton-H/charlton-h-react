@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/charlton-h-react/static/css/main.67976eb0.css",
-    "main.js": "/charlton-h-react/static/js/main.a9054888.js",
+    "main.js": "/charlton-h-react/static/js/main.883d2db5.js",
     "static/js/787.bc5b2175.chunk.js": "/charlton-h-react/static/js/787.bc5b2175.chunk.js",
     "static/media/Randm.png": "/charlton-h-react/static/media/Randm.1a5475008b694bdea527.png",
     "static/media/readme-demo.PNG": "/charlton-h-react/static/media/readme-demo.9ba161dc289a98797a82.PNG",
     "static/media/social-network.PNG": "/charlton-h-react/static/media/social-network.d4af25ef460412432261.PNG",
+    "static/media/happy_harvest.jpg": "/charlton-h-react/static/media/happy_harvest.668f4ab911941d70fffb.jpg",
     "static/media/save-dat-money.PNG": "/charlton-h-react/static/media/save-dat-money.45af550dad375678d47d.PNG",
     "static/media/resume.PNG": "/charlton-h-react/static/media/resume.44486c81e42e5611a590.PNG",
     "static/media/charlton-h-portfolio.PNG": "/charlton-h-react/static/media/charlton-h-portfolio.261d9b37d95999b92cb1.PNG",
@@ -14,11 +15,11 @@
     "static/media/note-taker-demo.PNG": "/charlton-h-react/static/media/note-taker-demo.507ffdf69f23d65f470a.PNG",
     "index.html": "/charlton-h-react/index.html",
     "main.67976eb0.css.map": "/charlton-h-react/static/css/main.67976eb0.css.map",
-    "main.a9054888.js.map": "/charlton-h-react/static/js/main.a9054888.js.map",
+    "main.883d2db5.js.map": "/charlton-h-react/static/js/main.883d2db5.js.map",
     "787.bc5b2175.chunk.js.map": "/charlton-h-react/static/js/787.bc5b2175.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67976eb0.css",
-    "static/js/main.a9054888.js"
+    "static/js/main.883d2db5.js"
   ]
 }
